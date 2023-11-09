@@ -25,6 +25,7 @@ class HasLogoFilterAdmin(admin.SimpleListFilter):
             return queryset
 
 
+# TODO Use the class in safe-eth-py
 class AdvancedAdminSearchMixin:
     """
     Use database indexes when using exact search instead
