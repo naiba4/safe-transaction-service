@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.13.0a6-slim
 
 ARG APP_HOME=/app
 WORKDIR ${APP_HOME}
